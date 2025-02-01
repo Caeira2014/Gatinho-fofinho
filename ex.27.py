@@ -17,7 +17,7 @@ for x in range(numero_inicial,numero_final+1): # faz a contagem de todos os núm
     if par_ímpar==1:
         if x%2==0: # se o resto da divisão for zero, é par
             print(x, end=" ")
-            soma+=x # vai somando os números uns aos outros 
+            soma+=x # vai somando os números uns aos outros
     elif par_ímpar==2:
         if x%2==1:
             print(x, end=" ")
